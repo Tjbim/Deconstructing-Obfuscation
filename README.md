@@ -73,13 +73,13 @@ Each dialogue file follows a consistent format:
 
 ## Dialogue Transcript
 
-### Human:
+## PROMPT:
 [Prompt text]
 
-### [Model]:
+## Response:
 [Model response]
 
-### Human:
+## PROMPT:
 [Follow-up prompt]
 
 ...
