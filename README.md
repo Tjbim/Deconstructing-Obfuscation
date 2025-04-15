@@ -72,12 +72,7 @@ We tested seven state-of-the-art Large Language Models (as of April 2025) on the
 Each dialogue file follows a consistent format:
 
 ```markdown
-# [Model Name]: [Obfuscation Technique] Deobfuscation
-
-## Basic Information
-- **Date**: April 2025
-- **Model**: [Model name and version]
-- **URL**: [Original dialogue URL if available]
+# [Model Name]
 
 ## Dialogue Transcript
 
