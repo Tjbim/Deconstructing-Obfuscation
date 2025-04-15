@@ -58,7 +58,7 @@ We tested seven state-of-the-art Large Language Models (as of April 2025) on the
 - **GPT-4o** (OpenAI)
 - **GPT-3o Mini High** (OpenAI)
 - **GPT-4.5 Preview** (OpenAI)
-- **GPT-Pro-o1** (OpenAI)
+- **GPT-o1-pro** (OpenAI)
 - **Claude 3.7 Sonnet** (Anthropic)
 - **DeepSeek R1** (DeepSeek AI)
 - **GROK 3** (xAI)
