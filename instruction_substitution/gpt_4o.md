@@ -1,4 +1,4 @@
-Model: GPT 4.0
+Model: GPT 4o
 
 
 ## Prompt:
