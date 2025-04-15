@@ -1,6 +1,10 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
+MODEL 
+
 > Deobfuscate this x86 assembly code and provide the simplified logic in C or pseudocode. Remove all obfuscation noise and focus on the core functionality,  presenting it as clearly as possible
+
+## Response:
 
 Here's the deobfuscated logic translated to clear pseudocode:
 
@@ -56,9 +60,10 @@ The function appears to be a cryptographic primitive or custom hash function, th
 Would you like me to refine any particular aspect of this analysis?
 
 ---
+## Prompt:
+> optimize the C code more, there are obvious constants that can be optimized out
 
-# optimize the C code more, there are obvious constants that can be optimized out
-
+## Response:
 Here's a significantly optimized version focusing on simplified constants and reduced operations:
 
 ```c
@@ -107,7 +112,11 @@ The core functionality remains cryptographic mixing with magic constants, but no
 
 ---
 
-# The switch is implemented through comparisons at 0x1a, 0xaa, and 0x106, with key computation blocks for each case starting at 0x27, 0xb7, 0x113, and 0x1ac. Ignore the numerous inc instructions, as they are likely noise. Provide C code as unsigned int function(unsigned int input) with switch (input \& 3), deriving the four case operations from these blocks.
+## Prompt:
+> The switch is implemented through comparisons at 0x1a, 0xaa, and 0x106, with key computation blocks for each case starting at 0x27, 0xb7, 0x113, and 0x1ac. Ignore the numerous inc instructions, as they are likely noise. Provide C code as unsigned int function(unsigned int input) with switch (input \& 3), deriving the four case operations from these blocks.
+
+
+## Response:
 
 Here's a cleaned-up version strictly following the control flow with optimized constants and removed noise:
 
