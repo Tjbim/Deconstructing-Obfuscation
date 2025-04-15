@@ -22,7 +22,6 @@ We tested seven state-of-the-art Large Language Models (as of April 2025) on the
 │
 ├── dialogues/                          # LLM dialogues by obfuscation technique
 │   ├── bogus_control_flow/             # BCF obfuscation dialogues
-│   │   ├── claude_3.7_sonnet.md
 │   │   ├── gpt_4o.md
 │   │   ├── gpt_4.5.md
 │   │   ├── gpt_o1.md
