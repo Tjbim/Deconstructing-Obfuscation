@@ -1,4 +1,4 @@
-Model: GPT o3-mini-hight
+Model: GPT o3-mini
 
 ## Prompt:
 
