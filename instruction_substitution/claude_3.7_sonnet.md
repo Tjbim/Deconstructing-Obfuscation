@@ -1,7 +1,9 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
-# Deobfuscated x86 Assembly Code
+**PROMPT:** 
+> Deobfuscate this x86 assembly code and provide the simplified logic in C or pseudocode. Remove all obfuscation noise and focus on the core functionality,  presenting it as clearly as possible
 
+## Response:
 After analyzing this heavily obfuscated x86 assembly code, I can identify the core functionality and present it in a simplified form.
 
 ## Core Functionality
