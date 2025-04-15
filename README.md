@@ -24,7 +24,7 @@ We tested seven state-of-the-art Large Language Models (as of April 2025) on the
 │   ├── bogus_control_flow/             # BCF obfuscation dialogues
 │   │   ├── gpt_4o.md
 │   │   ├── gpt_4.5.md
-│   │   ├── gpt_o1-pro-pro.md
+│   │   ├── gpt_o1-pro.md
 │   │   ├── gpt_3o_mini.md
 │   │   ├── deepseek_r1.md
 │   │   └── grok_3.md
