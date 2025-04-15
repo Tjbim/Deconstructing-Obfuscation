@@ -2,6 +2,8 @@
 
 MODEL: Depp Seek R1
 
+**PROMPT:** 
+
 > Deobfuscate this x86 assembly code and provide the simplified logic in C or pseudocode. Remove all obfuscation noise and focus on the core functionality,  presenting it as clearly as possible
 
 ## Response:
