@@ -17,7 +17,8 @@ We tested seven state-of-the-art Large Language Models (as of April 2025) on the
 │   ├── code_sub.capstone               # Instruction substitution
 │   ├── code_fla.capstone               # Control flow flattening
 │   ├── code_bcf.capstone               # Bogus control flow
-│   └── code_all.capstone               # All techniques combined
+│   ├── code_all.capstone               # All techniques combined                  
+│   └── ollvm_flags.md                  # OLLVM compilation flags used
 │
 ├── dialogues/                          # LLM dialogues by obfuscation technique
 │   ├── bogus_control_flow/             # BCF obfuscation dialogues
@@ -52,8 +53,6 @@ We tested seven state-of-the-art Large Language Models (as of April 2025) on the
 │       ├── deepseek_r1.md
 │       └── grok_3.md
 │
-├── compilation/                        # Compilation flags and instructions
-│   └── ollvm_flags.md                  # OLLVM compilation flags used
 │
 └── paper_reference.md                  # Summary and connection to paper sections
 ```
@@ -124,4 +123,4 @@ The dialogue transcripts and analysis are licensed under [CC BY 4.0](https://cre
 
 ## Contact
 
-For questions regarding this data or the accompanying paper, please contact [your-email@institution.edu].
+For questions regarding this data or the accompanying paper, please contact [anton.tkachenko@promon.no].
