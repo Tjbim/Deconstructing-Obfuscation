@@ -1,5 +1,13 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
+MODEL: Claude 3.7 Sonnet
+
+## Prompt:
+
+> Deobfuscate the x86 assembly code and present simplified logic in C or pseudocode. Remove all obfuscation noise, clearly showing core functionality
+
+## Response:
+
 # Deobfuscated Assembly Code
 
 After analyzing this x86 assembly code, I can see it's a heavily obfuscated function that performs different calculations based on the remainder when dividing the input parameter by 4.
