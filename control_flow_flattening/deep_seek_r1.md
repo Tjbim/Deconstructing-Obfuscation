@@ -5,7 +5,7 @@ MODEL: Deep Seek R1
 
 ## Prompt:
 
-Deobfuscate the x86 assembly code and present simplified logic in C or pseudocode. Remove all obfuscation noise, clearly showing core functionality
+> Deobfuscate the x86 assembly code and present simplified logic in C or pseudocode. Remove all obfuscation noise, clearly showing core functionality
 
 ## Response:
 Here's the deobfuscated logic in pseudocode. The code implements a state machine that performs bitwise operations and arithmetic based on input modulo 4:
