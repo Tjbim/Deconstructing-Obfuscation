@@ -1,7 +1,6 @@
 Model: Grok 3
 
-**PROMPT:** 
-> ```0x401000: push ebp
+**PROMPT:** ```0x401000: push ebp
 0x401001: dec eax
 0x401002: mov ebp, esp
 0x401004: push ebx
@@ -561,7 +560,8 @@ Model: Grok 3
 0x401772: jmp 0x401646
 ```
 
-Deobfuscate this code and provide me the logic in a form of pseudocode, simplify the logic as much as you can!
+
+> Deobfuscate this code and provide me the logic in a form of pseudocode, simplify the logic as much as you can!
 
 ## Response:
 The provided assembly is intentionally obfuscated through redundant operations, unnecessary instructions, and complex branching designed to impede reverse engineering.
