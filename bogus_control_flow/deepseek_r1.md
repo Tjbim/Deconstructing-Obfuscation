@@ -1,5 +1,13 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
+MODEL: Deep Seek R1
+
+## Prompt:
+
+> Deobfuscate this code and provide me the logic in a form of pseudocode, simplify the logic as much as you can 
+
+## Response:
+
 # Deobfuscate this code and provide me the logic in a form of pseudocode, simplify the logic as much as you can
 
 Here's a simplified pseudocode representation of the core logic:
@@ -54,7 +62,11 @@ The essence is a transformation loop that applies different bitwise/arithmetic o
 
 ---
 
-# assume both global variables are 0, simplify the code more
+## Prompt:
+
+> assume both global variables are 0, simplify the code more
+
+## Response:
 
 Here's the ultra-simplified logic when both global variables start at 0:
 
@@ -90,7 +102,11 @@ This represents a **10-round transformation cipher** where each round applies di
 
 ---
 
-# are you sure about the loop? please review everything again
+## Prompt:
+
+> are you sure about the loop? please review everything again
+
+## Response:
 
 After re-examining the assembly and fixing my initial misinterpretation of the control flow, here's the corrected analysis:
 
