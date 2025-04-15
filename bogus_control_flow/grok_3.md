@@ -1,8 +1,7 @@
 Model: Grok 3
 
 **PROMPT:** 
-> ```
-0x401000: push ebp
+> ```0x401000: push ebp
 0x401001: dec eax
 0x401002: mov ebp, esp
 0x401004: push ebx
