@@ -1,4 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+MODEL: Claude 3.7 Sonnet
 
 **PROMPT:** 
 > Deobfuscate this x86 assembly code and provide the simplified logic in C or pseudocode. Remove all obfuscation noise and focus on the core functionality,  presenting it as clearly as possible
