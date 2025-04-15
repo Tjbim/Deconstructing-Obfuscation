@@ -39,11 +39,8 @@ We tested seven state-of-the-art Large Language Models (as of April 2025) on the
 │   ├── control_flow_flattening/        # CFF obfuscation dialogues
 │   │   ├── claude_3.7_sonnet.md
 │   │   ├── gpt_4o.md
-│   │   ├── gpt_4.5.md
-│   │   ├── gpt_o1.md
 │   │   ├── deepseek_r1.md
-│   │   ├── grok_2.md
-│   │   └── grok_3.md
+│   │   └── grok_2.md
 │   │
 │   └── combined_techniques/            # All obfuscation techniques combined
 │       ├── claude_3.7_sonnet.md
