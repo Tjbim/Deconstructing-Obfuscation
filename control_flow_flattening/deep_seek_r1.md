@@ -174,9 +174,9 @@ int calculate(int input) {
     
     switch(mod) {
         case 0: return (input | C) * (input ^ 2);
-        case 1: return (input &amp; C) * (input + 3);
+        case 1: return (input & C) * (input + 3);
         case 2: return (input ^ C) * (input | 4);
-        case 3: return (input + C) * (input &amp; 5);
+        case 3: return (input + C) * (input & 5);
     }
     return 0;  // Unreachable
 }
