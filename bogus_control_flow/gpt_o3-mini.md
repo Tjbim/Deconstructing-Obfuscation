@@ -101,7 +101,7 @@ In short: the routine sets up a loop where it repeatedly checks conditions (deri
 This is my best‐effort “deobfuscation” that captures the spirit of the code without getting lost in the many jumps and redundant operations.
 
 ## Prompt:
-It is pretty hard to read, can you simplify the code even more?
+> It is pretty hard to read, can you simplify the code even more?
 
 ## Response:
 Reasoned about obfuscated code logic for 9 seconds
@@ -163,7 +163,7 @@ function obfuscated_function():
 This pseudocode captures the essence: a loop that uses global inputs to decide which of several arithmetic transformations to perform on an internal state before eventually terminating.
 
 ## Prompt:
-lets assume that dword ptr [0x404000] and dword ptr [0x404004]are both equal to 0
+> lets assume that dword ptr [0x404000] and dword ptr [0x404004]are both equal to 0
 
 ## Response:
 Reasoned about code with zeros for 50 seconds
@@ -222,7 +222,7 @@ When both globals are 0, every “global check” is passed. The obfuscated func
 Most of the “noise” (stack adjustments, redundant jumps) is just there to confuse anyone trying to follow the logic. The core idea is simply a loop that keeps transforming a state variable until it’s “done.”
 
 ## Prompt:
-Are you sure there are no constants i hidden?
+> Are you sure there are no constants i hidden?
 
 ## Response:
 Reasoned about hidden constants for 9 seconds
@@ -230,7 +230,7 @@ Reasoned about hidden constants for 9 seconds
 There are hidden constants. For example, the magic value **0xbaaad0bf** appears repeatedly in arithmetic operations, and you also see small constants like **1**, **2**, **3**, **4**, and **5** used throughout. These constants are mixed in with the obfuscation to complicate reverse engineering. So no, it’s not free of hidden constants—they're deliberately embedded to muddle the actual logic.
 
 ## Prompt:
-So can try once again and provide me more organized form of the obfuscated code?
+> So can try once again and provide me more organized form of the obfuscated code?
 
 ## Response:
 Reasoned about obfuscated code simplification for 2m 54s
