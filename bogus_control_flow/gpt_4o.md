@@ -563,7 +563,7 @@ Model: GPT 4o
 ```
 
 
-Deobfuscate this code and provide me the logic in a form of pseudocode, simplify the logic as much as you can!
+> Deobfuscate this code and provide me the logic in a form of pseudocode, simplify the logic as much as you can!
 
 ## Response:
 Here's a simplified pseudocode representation of the provided assembly code, based on deobfuscation and simplification of its logic:
