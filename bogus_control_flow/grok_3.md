@@ -1,6 +1,7 @@
 Model: Grok 3
 
 **PROMPT:** 
+```
 0x401000: push ebp
 0x401001: dec eax
 0x401002: mov ebp, esp
@@ -559,7 +560,7 @@ Model: Grok 3
 0x401768: jmp 0x401530
 0x40176d: jmp 0x4015bb
 0x401772: jmp 0x401646
-
+```
 
 > Deobfuscate this code and provide me the logic in a form of pseudocode, simplify the logic as much as you can!
 
