@@ -4,7 +4,9 @@ Model: Grok 3
 **PROMPT:** 
 > Deobfuscate this x86 assembly code and provide the simplified logic in pseudocode. Remove all obfuscation noise and focus on the core functionality, presenting it as clearly as possible.
 
-## Response: Let's deobfuscate the provided x86 assembly code and distill its core functionality into clear pseudocode. The code appears intentionally complex, with extra instructions that may serve as obfuscation. Our goal is to strip away this noise and focus on what the function actually computes, based on the input value.
+## Response: 
+
+Let's deobfuscate the provided x86 assembly code and distill its core functionality into clear pseudocode. The code appears intentionally complex, with extra instructions that may serve as obfuscation. Our goal is to strip away this noise and focus on what the function actually computes, based on the input value.
 
 ### Step 1: Understand the Structure
 
