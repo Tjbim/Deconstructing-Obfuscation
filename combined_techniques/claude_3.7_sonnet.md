@@ -1,4 +1,12 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+MODEL: Caude 3.7 Sonnet 
+
+## Prompt:
+
+> Deobfuscate this code and provide me the logic in a form of pseudocode or c code, simplify the logic as much as you can
+
+
+## Response:
 
 # Deobfuscated Code Logic
 
@@ -62,6 +70,11 @@ Without executing the code with different inputs, it's difficult to determine ex
 [^1_1]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/44963493/0b21e712-caaa-4ac5-93f7-8134c8ba621f/paste.txt
 
 ---
+## Prompt:
+
+> and what are those compute_value_ methods? deobfuscate all of them
+
+## Response:
 
 # Deobfuscated Computation Paths
 
@@ -189,6 +202,12 @@ This function simply maps inputs to outputs based on divisibility by 2, comparis
 
 ---
 
+## Prompt:
+
+> Given that `mov eax, dword ptr [0]` at 0x14 and `mov ecx, dword ptr [0]` at 0x1b both load 0, use this to simplify initial conditions. Provide the logic in pseudocode, focusing on the core functionality while removing obfuscation noise.
+
+## Response:
+
 # Deobfuscated Logic from Assembly Code
 
 After analyzing the heavily obfuscated x86 assembly code with the knowledge that both memory loads from address 0 return 0, I can provide a clean representation of the core functionality.
@@ -279,6 +298,12 @@ All the complex state transitions, bit manipulations, and seemingly random jumps
 [^3_1]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/44963493/0b21e712-caaa-4ac5-93f7-8134c8ba621f/paste.txt
 
 ---
+
+## Prompt:
+
+> The core logic uses a switch on `edi & 3`, with `edi` as the input from 0x68. Provide C or pseudocode with a `switch (input & 3)` structure, capturing the functional operations.
+
+## Response:
 
 # Deobfuscated Assembly Logic with Switch Structure
 
