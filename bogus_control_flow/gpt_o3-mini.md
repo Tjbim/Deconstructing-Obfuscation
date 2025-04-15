@@ -562,7 +562,7 @@ Model: GPT o3-mini-hight
 0x401772: jmp 0x401646
 ```
 
-Deobfuscate this code and provide me the logic in a form of pseudocode, simplify the logic as much as you can!
+> Deobfuscate this code and provide me the logic in a form of pseudocode, simplify the logic as much as you can!
 
 ## Response:
 Reasoned about code deobfuscation logic for 44 seconds
