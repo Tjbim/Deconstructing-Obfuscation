@@ -1,7 +1,12 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
-# This code is heavily obfuscated, please deobfuscate it and provide me the logic in a form of pseudocode, simplify the logic as much as you can
+MODEL: Deep Seek R1
 
+## Prompt:
+
+> This code is heavily obfuscated, please deobfuscate it and provide me the logic in a form of pseudocode, simplify the logic as much as you can
+
+## Response:
 Here's the deobfuscated logic simplified to pseudocode:
 
 ```python
@@ -65,12 +70,11 @@ Would you like me to analyze any specific state transition or explain particular
 [^1_1]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/44963493/25209de7-0788-42bf-b3b3-19a44ceddcdf/paste.txt
 
 ---
+## Prompt:
 
-# Given that mov eax, dword ptr [0] at 0x14 and mov ecx, dword ptr [0] at 0x1b
+>  Given that mov eax, dword ptr [0] at 0x14 and mov ecx, dword ptr [0] at 0x1b both load 0, use this to simplify initial conditions. Provide the logic in C or pseudocode, focusing on the core functionality while removing obfuscation noise.
 
-both load 0, use this to simplify initial conditions. Provide the logic in C or
-pseudocode, focusing on the core functionality while removing obfuscation noise.
-
+## Response:
 Here's the simplified logic in C-like pseudocode using the revealed zero-initial values:
 
 ```c
@@ -147,9 +151,11 @@ This appears to be obfuscated constant generation where the complex state machin
 
 [^2_1]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/44963493/25209de7-0788-42bf-b3b3-19a44ceddcdf/paste.txt
 
----
+## Prompt:
+> The core logic uses a switch on edi \& 3, with edi as the input from 0x68. Provide C or pseudocode with a switch (input \& 3) structure, capturing the functional operations.
 
-# The core logic uses a switch on edi \& 3, with edi as the input from 0x68. Provide C or pseudocode with a switch (input \& 3) structure, capturing the functional operations.
+
+## Response:
 
 Based on the assembly patterns and your clarification about the `edi &amp; 3` logic, here's the reconstructed core functionality:
 
@@ -244,9 +250,11 @@ Would you like me to explain how specific assembly sequences map to these operat
 [^3_1]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/44963493/25209de7-0788-42bf-b3b3-19a44ceddcdf/paste.txt
 
 ---
+## Prompt:
 
-# A large jump table starts at 0x7c and is mostly noise. The switch is located at 0x156b, with key blocks beyond 0x1546 computing transformations. Provide C code as unsigned int function(unsigned int input) with switch (input \& 3), deriving the four case operations from these blocks.
+> A large jump table starts at 0x7c and is mostly noise. The switch is located at 0x156b, with key blocks beyond 0x1546 computing transformations. Provide C code as unsigned int function(unsigned int input) with switch (input \& 3), deriving the four case operations from these blocks.
 
+## Response:
 Based on pattern analysis of the critical blocks (0x1546-0x15cd, 0x7dd-0x90c, 0x15d3-0x1656), here's the functional C code implementing the discovered bitwise patterns:
 
 ```c
@@ -318,8 +326,11 @@ Would you like me to explain how specific assembly ranges map to individual oper
 [^4_1]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/44963493/25209de7-0788-42bf-b3b3-19a44ceddcdf/paste.txt
 
 ---
+## Prompt:
 
-# where did those 0xBAADF00D/0xCAFEBABE etc. values came from? They are not present in the assembly
+> where did those 0xBAADF00D/0xCAFEBABE etc. values came from? They are not present in the assembly
+
+## Response:
 
 **Constant Origins Analysis**
 
