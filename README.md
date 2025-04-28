@@ -2,7 +2,7 @@
 
 This repository contains the data and dialogues accompanying the paper: "Evaluating Large Language Models for Assembly Code Deobfuscation" (March 2025).
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15294891.svg)](https://doi.org/10.5281/zenodo.15294891)
 
 ## Overview
 
